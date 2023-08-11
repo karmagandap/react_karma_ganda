@@ -1,8 +1,19 @@
 # react_karma_ganda
-Kumpulan Tugas ReactJS MSIB Batch 05
+<h1>Kumpulan Tugas ReactJS MSIB Batch 05 - Alterra Academy</h1>
 
-Karma Ganda Frontend Journey :
-🤖 HTML Fundamental
-✍️ CSS Design and Layouting
-🦾 Javascript DOM
-👨‍💻 React JS Implementation
+<h4>Karma Ganda Frontend Learning</h4> 
+<ul>
+    <li>
+      🤖 HTML Structure
+    </li>
+    <li>
+     ✍️ CSS Design
+    </li>
+    <li>
+      🦾 Javascript DOM
+    </li>
+    <li>
+      👨‍💻 React JS Mastery
+    </li>
+</ul>
+<p>Perjalanan 4 bulan belajar web programming dari nol berlatar belakang anak desain</p>
