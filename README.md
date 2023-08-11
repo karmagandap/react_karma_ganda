@@ -1,5 +1,5 @@
 # react_karma_ganda
-<h1>Kumpulan Tugas ReactJS MSIB Batch 05 - Alterra Academy</h1>
+<h3>Kumpulan Tugas ReactJS MSIB Batch 05 - Alterra Academy</h3>
 
 <h4>Karma Ganda Frontend Learning</h4> 
 <ul>
