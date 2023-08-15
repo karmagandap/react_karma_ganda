@@ -68,6 +68,44 @@
   height: 3px;
   width: 9%;
 }
+
+/* About Section */
+.my-about-section {
+  color: white;
+  margin: 5rem 0;
+  padding: 2rem;
+  border: 6px solid #ff6f93;
+  border-radius: 24px;
+}
+.my-about-head {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+}
+.my-about {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+}
+.my-about-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ff6f93;
+}
+.my-about-sub {
+  font-weight: 700;
+}
+.my-about-content {
+  font-size: 1.2rem;
+}
+.my-about-section .d-flex {
+  flex-direction: column-reverse;
+}
+.my-about .ms-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Responsive Breakpoint */
 @media (min-width: 992px) {
   .my-brand {
@@ -102,6 +140,16 @@
   .my-line-2,
   .my-line-3 {
     height: 5px;
+  }
+  .my-about-content p {
+    width: 32rem;
+  }
+  .my-about-section .d-flex {
+    flex-direction: row;
+  }
+  .my-about .ms-auto {
+    margin-left: auto;
+    margin-right: 0;
   }
 }
 @media (min-height: 1024px) {
