@@ -2,7 +2,7 @@
 .my-nav-bg {
   position: fixed;
   overflow: hidden;
-  top: 0;
+  top: 1rem;
   left: 0;
   right: 0;
 }
@@ -35,7 +35,7 @@
   margin-bottom: 6rem;
 }
 .my-hero-title {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 800;
 }
 .my-hero-title span {
@@ -43,7 +43,7 @@
 }
 .my-hero-tagline {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .my-hero-img {
   display: none;
@@ -130,7 +130,7 @@
   .my-hero-tagline {
     width: 32rem;
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .my-hero-img {
     display: block;
