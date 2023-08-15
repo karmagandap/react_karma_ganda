@@ -1,0 +1,32 @@
+/* Navbar */
+.navbar-nav li a {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.navbar-nav li a:hover {
+  color: #ff6f93;
+}
+.navbar-nav li button {
+  padding: 12px 100px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+/* Responsive Breakpoint */
+@media (min-width: 768px) {
+  .navbar-nav li a {
+    margin-right: 2rem;
+    margin-top: 0;
+  }
+  .navbar-nav li button {
+    padding: 12px 24px;
+    margin-top: 0;
+  }
+}
+@media (min-height: 1024px) {
+  .navbar-nav li a {
+    margin-right: 0;
+  }
+}
