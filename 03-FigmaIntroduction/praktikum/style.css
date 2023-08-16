@@ -147,6 +147,21 @@ section.my-hero h4 {
   margin-top: 8px;
 }
 
+/* Project Section */
+.my-project {
+  margin-top: 166px;
+
+  flex-direction: column;
+}
+.my-porto-1 {
+  margin-left: 0;
+  width: 100%;
+}
+.my-porto-2 {
+  margin-top: 32px;
+  margin-right: 0;
+  width: 100%;
+}
 /* Break Points */
 /* ----- Large Desktop */
 @media (min-width: 1200px) {
@@ -187,6 +202,19 @@ section.my-hero h4 {
   }
   .my-wrapper .my-line-3 {
     margin-right: 104px;
+  }
+  .my-porto-1 {
+    width: 38%;
+    margin-left: 104px;
+  }
+  .my-porto-2 {
+    margin-top: 0;
+    width: 38%;
+    margin-right: 104px;
+  }
+  .my-project {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 /* ----- Small Desktop */
