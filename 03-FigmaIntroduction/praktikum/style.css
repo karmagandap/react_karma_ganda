@@ -127,6 +127,25 @@ section.my-hero h4 {
   color: white;
   font-size: 24px;
 }
+.my-about-content ul {
+  margin: 0;
+  padding: 0;
+}
+.my-about-content li {
+  list-style-type: none;
+}
+.my-about-content li a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top: 8px;
+}
+.my-about-content li a:hover {
+  color: #ff6f93;
+}
+.my-about-content li img {
+  margin-right: 38px;
+}
 .my-about-img {
   margin-right: 0;
 }
@@ -162,6 +181,17 @@ section.my-hero h4 {
   margin-right: 0;
   width: 100%;
 }
+
+/* Footer Section */
+.my-footer h3 {
+  background-color: #6fd4ff;
+  padding: 44px 0;
+  text-align: center;
+  color: #2b2028;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 /* Break Points */
 /* ----- Large Desktop */
 @media (min-width: 1200px) {
