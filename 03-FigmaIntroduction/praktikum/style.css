@@ -34,9 +34,61 @@ button.navbar-toggler {
   color: #2b2028;
   width: 100%;
 }
+
+/* Hero Section */
+section.my-hero {
+  color: white;
+  padding-top: 168px;
+}
+section.my-hero h1 {
+  font-size: 64px;
+  font-weight: 800;
+}
+section.my-hero h1 span {
+  color: #ff6f93;
+}
+section.my-hero h4 {
+  font-size: 18px;
+  margin: 32px 0;
+}
+.my-line {
+  padding-top: 207px;
+  width: 100%;
+  justify-content: space-between;
+}
+.my-line-1 {
+  width: 59%;
+  background-color: white;
+  height: 5px;
+}
+.my-line-2 {
+  width: 29%;
+  background-color: #ff6f93;
+  height: 5px;
+}
+.my-line-3 {
+  width: 9%;
+  background-color: #6fd4ff;
+  height: 5px;
+}
+.my-hero-img {
+  display: none;
+}
+
 /* Break Points */
 /* ----- Large Desktop */
 @media (min-width: 1200px) {
+  section.my-hero h1 {
+    font-size: 96px;
+  }
+  section.my-hero h4 {
+    font-size: 24px;
+    width: 504px;
+  }
+  .my-hero-img {
+    width: 50%;
+    display: block;
+  }
 }
 /* ----- Small Desktop */
 @media (min-width: 992px) {
@@ -46,6 +98,10 @@ button.navbar-toggler {
   }
   .navbar-nav li button {
     width: auto;
+  }
+  .my-hero-img {
+    width: 50%;
+    display: block;
   }
 }
 /* ----- Landscape Tablet */
