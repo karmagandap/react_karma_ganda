@@ -2,6 +2,44 @@ html body {
   font-family: "Darker Grotesque", sans-serif;
   background-color: #2b2028;
 }
+.my-line {
+  padding-top: 207px;
+  width: 100%;
+  justify-content: space-between;
+}
+.my-line-1 {
+  width: 59%;
+  background-color: white;
+  height: 5px;
+}
+.my-line-2 {
+  width: 29%;
+  background-color: #ff6f93;
+  height: 5px;
+}
+.my-line-3 {
+  width: 9%;
+  background-color: #6fd4ff;
+  height: 5px;
+}
+.my-wrapper {
+  border: 5px solid #ff6f93;
+  border-radius: 32px;
+  padding: 24px 0;
+  margin: 120px 0;
+}
+.my-wrapper .my-line {
+  padding-top: 142px;
+}
+.my-wrapper .my-line-1 {
+  margin-left: 0;
+}
+.my-wrapper .my-line-2 {
+  margin: 0 15px;
+}
+.my-wrapper .my-line-3 {
+  margin-right: 0;
+}
 
 /* Navbar */
 nav.navbar {
@@ -51,28 +89,62 @@ section.my-hero h4 {
   font-size: 18px;
   margin: 32px 0;
 }
-.my-line {
-  padding-top: 207px;
-  width: 100%;
-  justify-content: space-between;
-}
-.my-line-1 {
-  width: 59%;
-  background-color: white;
-  height: 5px;
-}
-.my-line-2 {
-  width: 29%;
-  background-color: #ff6f93;
-  height: 5px;
-}
-.my-line-3 {
-  width: 9%;
-  background-color: #6fd4ff;
-  height: 5px;
-}
+
 .my-hero-img {
   display: none;
+}
+
+/* About Section */
+.my-mini-nav h2 {
+  color: #6fd4ff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-right: 0;
+}
+.my-mini-nav a {
+  margin-left: 0;
+}
+.my-about {
+  margin-top: 166px;
+  flex-direction: column-reverse;
+}
+.my-about-content {
+  color: white;
+  margin-left: 0;
+}
+.my-about-content h1 {
+  color: #ff6f93;
+  font-size: 56px;
+  font-weight: 800;
+}
+.my-about-content h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 24px 0;
+}
+.my-about-content h4 {
+  color: white;
+  font-size: 24px;
+}
+.my-about-img {
+  margin-right: 0;
+}
+.ms-auto.my-about-img {
+  margin-left: 0 !important;
+}
+.my-about-img h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 16px;
+}
+.my-about-img h4 {
+  color: #6fd4ff;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 8px;
 }
 
 /* Break Points */
@@ -89,6 +161,33 @@ section.my-hero h4 {
     width: 50%;
     display: block;
   }
+  .my-about {
+    flex-direction: row;
+  }
+  .my-about-content {
+    margin-left: 104px;
+  }
+  .my-about-content h4 {
+    width: 504px;
+  }
+  .my-about-img {
+    margin-right: 104px;
+  }
+  .ms-auto.my-about-img {
+    margin-left: auto !important;
+  }
+  .my-mini-nav h2 {
+    margin-right: 104px;
+  }
+  .my-mini-nav a {
+    margin-left: 104px;
+  }
+  .my-wrapper .my-line-1 {
+    margin-left: 104px;
+  }
+  .my-wrapper .my-line-3 {
+    margin-right: 104px;
+  }
 }
 /* ----- Small Desktop */
 @media (min-width: 992px) {
@@ -102,6 +201,9 @@ section.my-hero h4 {
   .my-hero-img {
     width: 50%;
     display: block;
+  }
+  .my-about {
+    flex-direction: row;
   }
 }
 /* ----- Landscape Tablet */
