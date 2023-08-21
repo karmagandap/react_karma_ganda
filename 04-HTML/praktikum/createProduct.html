@@ -1,1 +1,49 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>04-html-tugas</title>
+    <style>
+      label,
+      input,
+      button {
+        margin-top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Create Product</h1>
+    <h3>Detail Product</h3>
+    <form>
+      <label for="name"> Product name :</label> <br />
+      <input type="text" id="name" name="name" required="required" /> <br />
+      <br />
+      <label for="category"> Product Category :</label> <br />
+      <br />
+      <select name="category" id="category">
+        <option value="sport">Sport</option>
+        <option value="gaming">Gaming</option>
+        <option value="gadget">Gadget</option>
+        <option value="kitchen">Kitchen</option>
+      </select>
+      <br />
+      <br />
+      <label for="freshness"> Product Freshness :</label> <br />
+      <input type="radio" id="brandnew" value="brandnew" />
+      <label for="brandnew">Brand New</label> <br />
+      <input type="radio" id="secondhand" value="secondhand" />
+      <label for="secondhand">Second Hand</label> <br />
+      <input type="radio" id="refurbished" value="refurbished" />
+      <label for="refurbished">Refurbished</label> <br />
+      <label for="image">Image of Product </label> <input type="file" name="image" id="image" /> <br />
+      <br />
+      <label for="additional">Additional Description</label> <br />
+      <textarea name="additional" id="additional" cols="30" rows="10"></textarea> <br />
+      <br />
+      <label for="price">Product price :</label> <br />
+      <label for="currency">$ </label><input type="number" min="0" max="10000" name="price" id="price" required="required" /> <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
