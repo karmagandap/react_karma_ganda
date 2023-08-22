@@ -1,0 +1,82 @@
+/* root */
+:root {
+  /* color style */
+  --color-none: #00000000;
+  --color-blue: rgba(13, 110, 253, 1);
+  --color-white: white;
+  --color-grey: rgba(255, 255, 255, 0.6);
+  --color-dark-blue: rgba(55, 81, 126, 1);
+  --color-light-blue: rgba(71, 178, 228, 1);
+
+  /* font style */
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+}
+
+/* Navbar */
+nav a.navbar-brand {
+  font-weight: var(--semi-bold);
+}
+ul li a.active button.btn.btn-primary {
+  background-color: var(--color-blue);
+  border: none;
+  color: var(--color-white);
+  font-weight: var(--semi-bold);
+}
+ul li a button.btn.btn-primary {
+  background-color: var(--color-none);
+  border: none;
+  color: var(--color-blue);
+  font-weight: var(--semi-bold);
+}
+/* Hero Section */
+section.my-hero-section .d-flex {
+  flex-direction: column-reverse;
+}
+section.my-hero-section {
+  background-color: var(--color-dark-blue);
+  padding: 120px 0;
+}
+
+section.my-hero-section h1 {
+  font-weight: var(--bold);
+  color: var(--color-white);
+  font-size: 32px;
+}
+section.my-hero-section h4 {
+  font-weight: var(--medium);
+  color: var(--color-grey);
+  font-size: 16px;
+}
+section.my-hero-section button.btn {
+  margin-top: 48px;
+}
+section.my-hero-section button.btn.btn-primary {
+  background-color: var(--color-light-blue);
+  border: none;
+  border-radius: 100px;
+  padding: 12px 28px;
+}
+section.my-hero-section button.btn.btn-secondary {
+  background-color: var(--color-none);
+  border: none;
+  color: var(--color-white);
+  margin-left: 24px;
+}
+.my-hero-img img {
+  width: 100%;
+}
+/* Responsive */
+/* Desktop */
+@media (min-width: 991px) {
+  section.my-hero-section .d-flex {
+    flex-direction: row;
+  }
+  section.my-hero-section h1 {
+    font-size: 48px;
+  }
+  section.my-hero-section h4 {
+    font-size: 24px;
+  }
+}
