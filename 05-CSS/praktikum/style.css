@@ -30,6 +30,11 @@ ul li a button.btn.btn-primary {
   color: var(--color-blue);
   font-weight: var(--semi-bold);
 }
+ul li a button.btn.btn-primary:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
 /* Hero Section */
 section.my-hero-section .d-flex {
   flex-direction: column-reverse;
@@ -67,6 +72,7 @@ section.my-hero-section button.btn.btn-secondary {
 .my-hero-img img {
   width: 100%;
 }
+
 /* Responsive */
 /* Desktop */
 @media (min-width: 991px) {
