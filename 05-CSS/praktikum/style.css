@@ -95,11 +95,11 @@ section.my-news-section form {
   background-color: var(--color-white);
   border-radius: 100px;
   padding: 1px;
-  width: 636px;
+  width: 100%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 section.my-news-section input {
-  width: 75%;
+  width: 65%;
   border: 0;
   background-color: var(--color-none);
   padding-left: 12px;
@@ -108,7 +108,7 @@ section.my-news-section input:focus {
   outline: none;
 }
 section.my-news-section button {
-  width: 25%;
+  width: 35%;
   border-radius: 100px;
   background-color: var(--color-light-blue);
   border: 0;
@@ -136,6 +136,57 @@ footer.my-footer {
 footer.my-footer p {
   color: var(--color-white);
 }
+.footer-content-1 h3 {
+  color: var(--color-dark-blue);
+}
+.footer-content-1 .isi {
+  margin-bottom: 32px;
+}
+.footer-content-2 h5 {
+  color: var(--color-dark-blue);
+  font-weight: var(--bold);
+}
+.footer-content-2 ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.footer-content-2 ul li {
+  list-style: none;
+  margin-top: 18px;
+}
+.footer-content-3 h5 {
+  color: var(--color-dark-blue);
+  font-weight: var(--bold);
+}
+.footer-content-3 ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.footer-content-3 ul li {
+  list-style: none;
+  margin-top: 18px;
+}
+.col-3 {
+  display: none;
+}
+.footer-content-4 h5 {
+  color: var(--color-dark-blue);
+  font-weight: var(--bold);
+  margin-top: 32px;
+}
+.footer-content-4 ul li a .icon {
+  background-color: var(--color-light-blue);
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+}
+.footer-content-4 ul li {
+  list-style: none;
+  margin-right: 12px;
+}
+.footer-content-4 ul {
+  padding: 0;
+}
 /* Responsive */
 /* Desktop */
 @media (min-width: 991px) {
@@ -147,5 +198,20 @@ footer.my-footer p {
   }
   section.my-hero-section h4 {
     font-size: 24px;
+  }
+  section.my-news-section input {
+    width: 75%;
+  }
+  section.my-news-section button {
+    width: 25%;
+  }
+  section.my-news-section form {
+    width: 636px;
+  }
+  .col-3 {
+    display: flex;
+  }
+  .footer-content-4 h5 {
+    margin-top: 0;
   }
 }
