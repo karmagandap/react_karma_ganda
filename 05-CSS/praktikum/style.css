@@ -116,6 +116,26 @@ section.my-news-section button {
   padding: 12px 24px;
 }
 
+/* Footer Section */
+footer.my-footer-section {
+  padding: 60px 0;
+}
+.my-footer-link p {
+  margin-right: 8px;
+  font-weight: var(--bold);
+}
+.my-footer-link a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer.my-footer {
+  background-color: var(--color-dark-blue);
+  padding: 30px 0;
+}
+footer.my-footer p {
+  color: var(--color-white);
+}
 /* Responsive */
 /* Desktop */
 @media (min-width: 991px) {
