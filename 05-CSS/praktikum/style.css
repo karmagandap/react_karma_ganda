@@ -7,8 +7,10 @@
   --color-grey: rgba(255, 255, 255, 0.6);
   --color-dark-blue: rgba(55, 81, 126, 1);
   --color-light-blue: rgba(71, 178, 228, 1);
+  --color-grey-2: rgba(243, 245, 250, 1);
 
   /* font style */
+  --reguler: 400;
   --medium: 500;
   --semi-bold: 600;
   --bold: 700;
@@ -71,6 +73,47 @@ section.my-hero-section button.btn.btn-secondary {
 }
 .my-hero-img img {
   width: 100%;
+}
+
+/* News Section */
+section.my-news-section {
+  background-color: var(--color-grey-2);
+  padding: 50px 0;
+}
+section.my-news-section h2 {
+  font-weight: var(--semi-bold);
+  font-size: 24px;
+  color: var(--color-dark-blue);
+}
+section.my-news-section p {
+  font-weight: var(--reguler);
+  font-size: 14px;
+  margin: 16px 0;
+}
+section.my-news-section form {
+  margin: 32px auto;
+  background-color: var(--color-white);
+  border-radius: 100px;
+  padding: 1px;
+  width: 636px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+section.my-news-section input {
+  width: 75%;
+  border: 0;
+  background-color: var(--color-none);
+  padding-left: 12px;
+}
+section.my-news-section input:focus {
+  outline: none;
+}
+section.my-news-section button {
+  width: 25%;
+  border-radius: 100px;
+  background-color: var(--color-light-blue);
+  border: 0;
+  color: var(--color-white);
+  padding: 12px 24px;
 }
 
 /* Responsive */
