@@ -53,49 +53,21 @@
         <h2>Detail Product</h2>
         <form>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Product Name</label>
-            <input type="name" class="form-control" id="inputProductName" aria-describedby="emailHelp" required="required" />
+            <label class="form-label">Product Name</label>
+            <input type="name" class="form-control" id="productName" />
+            <p id="errorProductName" class="error">masukkan nama produk!</p>
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Product Category</label>
-            <br />
-            <div class="btn-group">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">Choose... <span></span></button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Image of Product</label>
-            <div class="hero-file">
-              <label for="files" class="btn btn-primary">Choose File</label>
-              <p>No file Choosen</p>
-            </div>
-            <input id="files" style="visibility: hidden" type="file" />
-          </div>
-          <div class="mb-3">
-            <label for="">Product Freshness</label> <br />
-            <input type="radio" id="html" name="fav_language" value="HTML" />
-            <label for="html">Brand New</label><br />
-            <input type="radio" id="css" name="fav_language" value="CSS" /> <label for="css">Second Hand</label><br />
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript" /> <label for="javascript">Refurbished</label>
-          </div>
-          <div class="mb-3">
-            <label for="">Additional Description</label>
-            <br /><textarea name="" id=""></textarea>
-          </div>
-          <div class="mb-3">
-            <label for="">Product Price</label>
+            <label>Product Price</label>
             <br />
             <div class="price-form">
               <p>$</p>
-              <input type="number" />
+              <input type="number" id="productPrice" />
             </div>
+            <p id="errorProductPrice" class="error">masukkan harga produk!</p>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
+          <p id="result" class="error"></p>
         </form>
       </div>
     </section>

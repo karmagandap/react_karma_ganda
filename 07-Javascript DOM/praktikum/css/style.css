@@ -26,32 +26,10 @@
 .hero-product button.btn.btn-secondary span {
   margin-right: 120px;
 }
-.hero-file {
-  display: flex;
-  align-items: center;
-  border: 1px solid #0d6efd;
-  border-radius: 8px;
-  width: 240px;
-}
-.hero-file p {
-  color: #0d6efd;
-  padding-left: 8px;
-  margin: 0;
-}
-label.btn.btn-primary {
-  background-color: #0d6efd;
-  color: white;
-}
-textarea {
-  width: 100%;
-  height: 100px;
-  border-radius: 12px;
-}
 .price-form {
   display: flex;
   text-align: center;
   border: 1px solid black;
-  width: 215px;
   border-radius: 4px;
 }
 .price-form p {
@@ -60,12 +38,16 @@ textarea {
 }
 .price-form input {
   border: none;
+  width: 100%;
 }
 .hero-product button.btn.btn-primary {
   margin-top: 48px;
   background-color: #0d6efd;
   color: white;
   width: 100%;
+}
+.error {
+  text-align: right;
 }
 
 /* Responsive */
