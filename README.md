@@ -1,19 +1,28 @@
 # react_karma_ganda
-<h3>Kumpulan Tugas ReactJS MSIB Batch 05 - Alterra Academy</h3>
+<h3>Repository Capston Team 14 - Woman Center</h3>
 
-<h4>Karma Ganda Frontend Learning</h4> 
-<ul>
+<h4>Frontend Developer ReactJS</h4> 
+<ul> 
     <li>
-      🤖 HTML Structure
+      💻  Landing Page
     </li>
     <li>
-     ✍️ CSS Design
+      🤖 User Insights Dashboard (user activity and preferences)
     </li>
     <li>
-      🦾 Javascript DOM
+     ✍️ Manage schedule about counseling
     </li>
     <li>
-      👨‍💻 React JS Mastery
+      🦾 Manage event
+    </li>
+    <li>
+      👨‍💻 Get article topic recommendations
+    </li>
+    <li>
+    ✊ Manage recommendation career information
+    </li>
+    <li>
+    🧠 Manage Curate and publish news articles
     </li>
 </ul>
-<p>Perjalanan 4 bulan belajar web programming dari nol berlatar belakang anak desain</p>
+<p>Jobdesc Frontend Developer RaectJS - Woman Center</p>
