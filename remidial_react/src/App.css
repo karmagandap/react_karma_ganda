@@ -19,8 +19,44 @@
 
 .Movie-container {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .Movie-wrapper {
-  background-color: antiquewhite;
+  border: 2px solid white;
+  border-radius: 32px;
+  width: 500px;
+  color: white;
+}
+.Movie-search {
+  height: 48px;
+  font-size: 24px;
+  margin-bottom: 32px;
+  padding: 16px;
+  font-weight: bold;
+  width: 470px;
+  border-radius: 32px;
+  border: 2px solid white;
+}
+
+.Movie-title {
+  height: 60px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  font-weight: bold;
+}
+
+.Movie-date {
+  margin-top: 26px;
+  font-style: italic;
+}
+
+.Movie-rate {
+  color: #fcd53f;
+  font-weight: bold;
+  margin-bottom: 26px;
 }
